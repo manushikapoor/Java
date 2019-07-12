@@ -104,7 +104,7 @@ public class X {
                 new Deptcomparator(),new Agecomparator())
         );
 		System.out.println("sorting according to dept and then age");
-		e.stream().filter(emp->emp.getsalary() > 10000).forEach(System.out::println);
+		e.stream().filter(emp->emp.getsalary() > 10000).forEach(System.out::println); //lambda expression
 	}
 
 }

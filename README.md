@@ -22,4 +22,5 @@ I will upload programs related to core java here.
 # Day 4
 1.Create and use a generic class.  
 2.Create and use ArrayList, TreeSet, and ArrayDeque.    
-3.Using comparator and foreach method.  
+3.Using comparator, foreach method and lambda expressions.  
+4.Using method references.
