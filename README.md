@@ -24,3 +24,20 @@ I will upload programs related to core java here.
 2.Create and use ArrayList, TreeSet, and ArrayDeque.    
 3.Using comparator, foreach method and lambda expressions.  
 4.Using method references.
+# Day 5
+1.Use BufferedReader, BufferedWriter, File, FileReader, FileWriter, FileInputStream, FileOutputStream, ObjectOutputStream, ObjectInputStream, and PrintWriter in the java.io package.  
+2.Use Path interface to operate on file and directory paths
+# Day 6
+1.Submit queries and read results from the database including creating statements, returning result sets, iterating through the results, and properly closing result sets, statements, and connections
+# Day 7
+1.Use the built-in interfaces included in the java.util.function package such as Predicate, Consumer, Function, and Supplier  
+2. Develop code that uses primitive versions of functional interfaces  
+3.Develop code that uses binary versions of functional interfaces  
+4. Develop code that uses the UnaryOperator interface  
+# Day 8
+1.Develop code to extract data from an object using peek() and map() methods including primitive versions of the map() method  
+2.Search for data by using search methods of the Stream classes including findFirst, findAny, anyMatch, allMatch, noneMatch  
+3.Develop code that uses the Optional class and Stream data methods and calculation methods  
+4.Sort a collection using Stream API  
+5.Save results to a collection using the collect method and group/partition data using the Collectors class  
+6.Use flatMap() methods in the Stream API
