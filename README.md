@@ -1,5 +1,5 @@
 ```
-I will upload programs related to core java here.
+I will upload programs related to java here.
 ```
 # Day 1  
 1. Java application with a main method, run by command line and produce console output.  
@@ -44,4 +44,6 @@ I will upload programs related to core java here.
 # Day 9
 1. Program using Servlets.  
 # Day 10
-1. Servlet Connectivity with Database using JDBC
+1. Servlet Connectivity with Database using JDBC.
+# Day 11
+1.Simple JSP Program.
