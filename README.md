@@ -41,3 +41,7 @@ I will upload programs related to core java here.
 4.Sort a collection using Stream API  
 5.Save results to a collection using the collect method and group/partition data using the Collectors class  
 6.Use flatMap() methods in the Stream API
+# Day 9
+1. Program using Servlets.  
+# Day 10
+1. Servlet Connectivity with Database using JDBC
