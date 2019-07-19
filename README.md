@@ -47,3 +47,5 @@ I will upload programs related to java here.
 1. Servlet Connectivity with Database using JDBC.
 # Day 11
 1.Simple JSP Program.
+# Day 12
+1. MVC Architecture
