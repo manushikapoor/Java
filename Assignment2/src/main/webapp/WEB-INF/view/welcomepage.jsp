@@ -26,6 +26,5 @@ Fill up the form to register an employee :
 <input type="submit" name="submit">
 </form>
 <br>
-<p>To know employee's details, <a href="enterid.jsp">Click here</a></p>
 </body>
 </html>
