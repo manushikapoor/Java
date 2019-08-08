@@ -35,6 +35,19 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.hibernate.javax.persistence/hibernate-jpa-2.0-api -->
+<dependency>
+    <groupId>org.hibernate.javax.persistence</groupId>
+    <artifactId>hibernate-jpa-2.0-api</artifactId>
+    <version>1.0.1.Final</version>
+</dependency>
+		<!-- https://mvnrepository.com/artifact/org.jboss.spec.javax.transaction/jboss-transaction-api_1.2_spec -->
+<dependency>
+    <groupId>org.jboss.spec.javax.transaction</groupId>
+    <artifactId>jboss-transaction-api_1.2_spec</artifactId>
+    <version>1.0.0.Beta1</version>
+</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
 <dependency>
     <groupId>org.apache.tomcat.embed</groupId>

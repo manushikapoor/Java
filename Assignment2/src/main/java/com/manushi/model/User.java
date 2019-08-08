@@ -1,4 +1,5 @@
 package com.manushi.model;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
@@ -6,11 +7,19 @@ import javax.persistence.Table;
 @Table(name="java2")
 public class User {
 	
-	
+	@Column(name="name")
 	private String name;
+	
+	@Column(name="address")
 	private String address;
+	
+	@Column(name="phone")
 	private int phone;
+	
+	@Column(name="email")
 	private String email;
+	
+	@Column(name="exp")
 	private String exp;
 	
 	
