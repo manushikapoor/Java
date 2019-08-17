@@ -1,4 +1,4 @@
-package com.example.config;
+package com.example.demo.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -23,5 +23,7 @@ public class MyUserDetailsService implements UserDetailsService {
 			throw new UsernameNotFoundException("Username not found ! Kindly register yourself first");
 		return new UserPrincipal(user);
 	}
+	
+	
 
 }

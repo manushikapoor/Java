@@ -21,9 +21,9 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.example.config.EmailService;
-import com.example.config.MyUserDetailsService;
-import com.example.config.UserService;
+import com.example.demo.config.EmailService;
+import com.example.demo.config.MyUserDetailsService;
+import com.example.demo.config.UserService;
 import com.example.demo.model.User;
 import com.example.demo.repository.UserRepository;
 
@@ -83,7 +83,7 @@ public class ApplicationController {
 			
 			
 			SimpleMailMessage passwordResetEmail = new SimpleMailMessage();
-			passwordResetEmail.setFrom("support@demo.com");
+			passwordResetEmail.setFrom("manushikapoor@gmail.com");
 			passwordResetEmail.setTo(user.getEmail());
 			passwordResetEmail.setSubject("Password Reset Request");
 			passwordResetEmail.setText("To reset your password, click the link below:\n" + appUrl
