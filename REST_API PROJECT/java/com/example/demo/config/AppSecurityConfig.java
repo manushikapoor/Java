@@ -38,10 +38,6 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter{
 		
 	}
 
-	/* don't want spring security for registeration that's why added this but it's not working, 
-	 * getting error unauthorized when passed values to register (register api was working fine
-	 * before i added dependency for spring security)
-	 */
 	@Override
 	public void configure(WebSecurity web) throws Exception{
 		web.ignoring().antMatchers("/register/**");
