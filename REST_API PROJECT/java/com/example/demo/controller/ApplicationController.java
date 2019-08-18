@@ -47,6 +47,7 @@ public class ApplicationController {
 	
 	@GetMapping("/login")
 	public MyUserDetailsService login(@RequestParam ("username") String username, @RequestParam("password") String password) {
+		myuser.loadUserByUsername(username);
 		return myuser;
 			      
 	}

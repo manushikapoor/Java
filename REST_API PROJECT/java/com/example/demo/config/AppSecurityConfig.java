@@ -41,6 +41,8 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter{
 	@Override
 	public void configure(WebSecurity web) throws Exception{
 		web.ignoring().antMatchers("/register/**");
+		web.ignoring().antMatchers("/forgot/**");
+		web.ignoring().antMatchers("/reset/**");
 	}
 	
 }
