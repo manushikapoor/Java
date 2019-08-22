@@ -12,8 +12,8 @@ import com.example.demo.repository.UserRepository;
 
 @Service
 @Transactional
-public class UserServiceImpl implements UserService{
-	
+public class UserServiceImpl implements UserService {
+
 	@Autowired
 	private UserRepository userRepository;
 
@@ -31,6 +31,5 @@ public class UserServiceImpl implements UserService{
 	public void save(User user) {
 		userRepository.save(user);
 	}
+
 }
-
-

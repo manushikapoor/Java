@@ -7,8 +7,8 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 @Service("emailService")
-public class EmailServiceImpl implements EmailService{
-	
+public class EmailServiceImpl implements EmailService {
+
 	@Autowired
 	private JavaMailSender mailSender;
 

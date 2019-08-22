@@ -10,9 +10,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import com.example.demo.model.User;
 
 public class UserPrincipal implements UserDetails {
-	
+	private static final long serialVersionUID = 1L;
 	private User user;
-	
+
 	public UserPrincipal(User user) {
 		super();
 		this.user = user;
@@ -20,13 +20,13 @@ public class UserPrincipal implements UserDetails {
 
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
-		
+
 		return Collections.singleton(new SimpleGrantedAuthority("USER"));
 	}
 
 	@Override
 	public String getPassword() {
-		
+
 		return user.getPassword();
 	}
 
@@ -59,7 +59,5 @@ public class UserPrincipal implements UserDetails {
 		// TODO Auto-generated method stub
 		return true;
 	}
-	
-	
 
 }
